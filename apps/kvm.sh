@@ -17,6 +17,6 @@ ensure_kvm_is_installed () {
 
 kvm_is_provisioned () {
   ensure_kvm_is_installed
-  user_is_in_groups pat libvirt kvm
-  service_is_active libvirtd
+  ensure_user_is_in_groups pat libvirt kvm
+  ensure_service_is_active libvirtd
 }

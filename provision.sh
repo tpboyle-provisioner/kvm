@@ -9,7 +9,7 @@ KVM_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # SOURCES
 
 source "src/logger.sh"
-source "$KVM_DIR/apps/_installer.sh"
+source "$KVM_DIR/apps/_all.sh"
 
 [ -f "$KVM_DIR/conf.sh" ] && source "$KVM_DIR/conf.sh"
 
@@ -28,7 +28,7 @@ log_footer () {
 # INTERFACE
 
 provision () {
-  kvm_is_provisioned
+  provision_all_kvm_apps
 }
 
 
