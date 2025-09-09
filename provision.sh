@@ -11,8 +11,6 @@ KVM_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "src/logger.sh"
 source "$KVM_DIR/apps/_all.sh"
 
-[ -f "$KVM_DIR/conf.sh" ] && source "$KVM_DIR/conf.sh"
-
 
 # HELPERS
 
