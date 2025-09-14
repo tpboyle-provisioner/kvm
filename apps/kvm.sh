@@ -3,7 +3,7 @@
 # Get current directory
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-source "src/packages/apt.sh"
+source "src/packages/apt/packages.sh"
 source "src/users.sh"
 source "src/services.sh"
 
