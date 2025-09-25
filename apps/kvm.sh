@@ -15,7 +15,7 @@ kvm_is_provisioned () {
 
 ensure_kvm_is_installed () {
   apt_ensure_packages_are_installed \
-    qemu-kvm \
+    qemu-system-x86 \
     libvirt-daemon-system \
     libvirt-clients \
     bridge-utils \
