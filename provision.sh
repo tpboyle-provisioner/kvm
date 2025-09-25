@@ -15,11 +15,11 @@ source "$KVM_DIR/apps/_all.sh"
 # HELPERS
 
 log_header () {
-  info "development" "---- Starting <<DEVELOPMENT>> provisioning... ----"
+  info "development" "---- Starting _kvm_ provisioning... ----"
 }
 
 log_footer () {
-  info "development" "---- ...<<DEVELOPMENT>> provisioning complete. ----"
+  info "development" "---- ..._kvm_ provisioning complete. ----"
 }
 
 
